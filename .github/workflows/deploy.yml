@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             rm -rf self-healing-canary-devops-aws || true
-            git clone https://github.com/Akshaysa8595/self-healing-canary-devops-aws.git
+            git clone https://github.com/Akshaysa8595/aws-devops-ci-cd-pipeline.git
 
             cd self-healing-canary-devops-aws/app
 

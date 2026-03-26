@@ -1,4 +1,4 @@
-# 🚀 Self-Healing Canary DevOps Pipeline on AWS
+# 🚀 aws-devops-ci-cd-pipeline
 
 This project demonstrates a production-style DevOps pipeline using AWS, Terraform, Docker, and GitHub Actions.
 
@@ -61,7 +61,6 @@ GitHub Push → GitHub Actions → SSH → EC2 → Docker Deploy
 
 ## 📁 Project Structure
 
-
 self-healing-canary-devops-aws/
 
 ├── app/
@@ -88,15 +87,17 @@ self-healing-canary-devops-aws/
 
 └── .gitignore
 
-
 ---
+
 ## 🧪 How to Test
 
 1. Update `index.html`
 2. Push changes to GitHub
 3. Wait for GitHub Actions to run
 4. Access application via EC2 public IP
+
 ---
+
 ## 📈 Key Learning
 
 - End-to-end DevOps pipeline implementation
@@ -115,7 +116,12 @@ self-healing-canary-devops-aws/
 - Kubernetes (EKS) integration
 - Docker image push to AWS ECR
 
----
+## 🔥 Key Highlights
+
+- Automated CI/CD deployment (no manual steps)
+- Docker-based application deployment
+- Infrastructure provisioning using Terraform
+- Real-time update on every Git push
 
 ## 👨‍💻 Author
 
